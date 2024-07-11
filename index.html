@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pocker</title>
+
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="pocker-desc">
+    <div class="leather">
+        <div class="player">
+            <span class="card c6">7<span class="suit">♠</span></span>
+            <span class="card red c7">7<span class="suit">♦</span></span>
+        </div>
+
+        <div class="oponent left">
+            <span class="card c5 back"></span>
+            <span class="card c5 back"></span>
+        </div>
+
+        <div class="wood">
+            <div class="board">
+                <div class="board-line">
+
+                    <div class="bank">
+                        <div class="bet-tower">
+                            <div class="bet-chip"></div>
+                            <div class="bet-chip"></div>
+                            <div class="bet-chip"></div>
+                            <div class="bet-chip"></div>
+                            <div class="bet-chip"></div>
+                            <div class="bet-chip"></div>
+                            <div class="bet-chip"></div>
+                        </div>
+
+                        <div class="bet-tower">
+                            <div class="bet-chip"></div>
+                            <div class="bet-chip"></div>
+                            <div class="bet-chip"></div>
+                            <div class="bet-chip"></div>
+                        </div>
+
+                        <div class="bet-value">15'000$</div>
+                    </div>
+
+                    <div class="board-cards">
+                        <span class="card red c1">A<span class="suit">♥</span></span>
+                        <span class="card c2">K<span class="suit">♠</span></span>
+                        <span class="card red c3">T<span class="suit">♦</span></span>
+                        <span class="card c4">10<span class="suit">♣</span></span>
+                        <span class="card c5 back"></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    setInterval(() => {
+        document.body.classList.add('ref');
+        void document.body.offsetWidth;
+        document.body.classList.remove('ref');
+    }, 10000);
+
+</script>
+</body>
+</html>
