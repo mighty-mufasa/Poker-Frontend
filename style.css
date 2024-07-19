@@ -7,7 +7,15 @@ html, body {
 }
 
 body {
-    background: #333340;
+    background: url("./assets/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.loader{
+  background: url("./assets/img/loading.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .pocker-desc {
@@ -47,7 +55,7 @@ body {
 }
 
 .board {
-    background: #688540;
+    background: url('/assets/img/background.jpg');
     width: 100%;
     height: 100%;
     box-shadow:
